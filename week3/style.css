@@ -1,0 +1,28 @@
+/*curly braces = grouping
+square brackets = js
+round brackets = js
+arrows/parantheses = html
+semicolon = end line
+colon = property declaration
+syntax = language rules
+hyphen = connect words*/
+* {
+  background-color: lavender;
+}
+h1 {
+  color: red;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h2 {
+  color: navy;
+  text-align: center;
+  font-size: 20px;
+}
+h3 {
+  color: navy;
+  text-align: center;
+  font-size: 20px;
+}
