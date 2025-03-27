@@ -6,7 +6,7 @@ semicolon = end line
 colon = property declaration
 syntax = language rules
 hyphen = connect words*/
-* {
+body {
   background-color: lavender;
 }
 h1 {
@@ -16,13 +16,26 @@ h1 {
     "Lucida Sans", Arial, sans-serif;
 }
 
-h2 {
-  color: navy;
-  text-align: center;
-  font-size: 20px;
-}
+h2,
 h3 {
   color: navy;
   text-align: center;
   font-size: 20px;
+}
+li {
+  color: navy;
+  border: 1px solid;
+  text-align: center;
+}
+#outcome {
+  color: purple;
+}
+#welcome {
+  text-align: center;
+}
+
+p {
+  color: #0000f0;
+  font-family: "Electrolize", san-serif;
+  font-size: 12px;
 }
