@@ -1,0 +1,30 @@
+body {
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 0 auto;
+  /* horizontal centering
+    padding - space between content and border
+    margin - around border */
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+p {
+  width: 400px;
+  height: 200px;
+  border: 1px solid indigo;
+  border-top: 3px dotted blue;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  min-height: 10px;
+  max-height: 200px;
+  padding: 10px;
+}
+
+.vcenter {
+  line-height: 180px;
+  /* height - top padding - bottom padding */
+}
