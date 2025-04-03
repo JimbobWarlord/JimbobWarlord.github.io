@@ -10,7 +10,7 @@ body {
   align-items: center;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
-  font-weight: bold;
+  font-weight: 400;
   font-style: normal;
   color: #e5e5cb;
   /* color: #3c2a21; */
@@ -18,36 +18,22 @@ body {
 }
 
 .outer {
+  border: 1px dashed #e5e5cb;
   width: 400px;
-  border: 2px dashed #e5e5cb56;
-  min-height: 100px;
+  min-height: 200px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  /* flex-start, flex-end, center, space-between, space-around*/
+  gap: 1rem;
   align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 5px;
+  /* flex-wrap: wrap; */
 }
 
-.redbox {
-  background-color: red;
-  color: #3c2a21;
+input,
+button {
   padding: 10px;
 }
 
-.bluebox {
-  background-color: blue;
-  color: #3c2a21;
-  padding: 10px;
-}
-
-.plumbox {
-  background-color: plum;
-  color: #3c2a21;
-  padding: 10px;
-}
-
-.outer > * {
-  flex: 1;
+h1 {
+  font-size: 2rem;
 }

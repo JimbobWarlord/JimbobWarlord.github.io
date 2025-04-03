@@ -1,0 +1,58 @@
+body {
+  background-color: powderblue;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  max-width: 100rem;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.ultrabox {
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  background-color: black;
+  color: white;
+
+  display: flex;
+  margin: auto;
+  max-height: 1rem;
+  max-width: 100rem;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 60rem;
+  flex-wrap: wrap;
+}
+
+.name {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.link {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.box1 {
+  font-size: 1rem;
+  text-align: left;
+  display: flex;
+  padding: 1rem;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.text1 {
+  font-size: 1rem;
+  text-align: left;
+}
