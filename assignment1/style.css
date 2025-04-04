@@ -31,9 +31,9 @@ body {
 
   display: flex;
   margin: auto;
-  width: 120rem;
+  width: 110rem;
   max-height: 1rem;
-  max-width: 120rem;
+  max-width: 110rem;
   padding: 1rem;
   top: 0;
   justify-content: space-around;
