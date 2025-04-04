@@ -1,36 +1,43 @@
 body {
-  background-color: powderblue;
+  /*This green background colour was used to see if there were any gaps in padding*/
+  background-color: limegreen;
   display: flex;
   text-align: center;
   margin: auto;
-  max-width: 100rem;
+  max-width: 120rem;
   justify-content: center;
   align-items: center;
-  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
-  font-weight: bold;
   font-style: normal;
 }
 
-.ultrabox {
+.content {
+  /*Went with flexbox over grid display because I just prefer it and it seemed simpler*/
   display: flex;
   flex-direction: column;
+  width: 60rem;
+  max-width: 60rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .topbar {
   background-color: black;
   color: white;
+  font-size: 2rem;
+  font-family: Impact;
+  /*This keeps the topbar always at the top of the page even if you scroll*/
+  position: fixed;
 
   display: flex;
   margin: auto;
+  width: 120rem;
   max-height: 1rem;
-  max-width: 100rem;
+  max-width: 120rem;
   padding: 1rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  gap: 60rem;
-  flex-wrap: wrap;
+  top: 0;
+  left: 0;
+  justify-content: space-around;
 }
 
 .name {
@@ -40,19 +47,52 @@ body {
 
 .link {
   font-size: 1rem;
-  text-align: left;
+  text-align: right;
+}
+
+h1 {
+  color: navy;
+  /*Custom Google font*/
+  font-family: "graduate";
+}
+
+p {
+  color: black;
+  /*Custom Google font*/
+  font-family: "electrolize";
 }
 
 .box1 {
+  background-color: white;
+  color: black;
+  width: 110rem;
   font-size: 1rem;
-  text-align: left;
-  display: flex;
-  padding: 1rem;
-  flex-direction: row;
-  justify-content: left;
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+  /*This very first box is the only one with a margin-top in order to place it below the topbar*/
+  margin-top: 2rem;
 }
 
-.text1 {
+.box2 {
+  background-color: #ebebeb;
+  color: black;
+  width: 110rem;
   font-size: 1rem;
-  text-align: left;
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+}
+
+.box3 {
+  background-color: white;
+  color: black;
+  width: 110rem;
+  font-size: 1rem;
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
 }
