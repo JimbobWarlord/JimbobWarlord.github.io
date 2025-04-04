@@ -4,7 +4,7 @@ body {
   display: flex;
   text-align: center;
   margin: auto;
-  max-width: 140rem;
+  max-width: 110rem;
   justify-content: center;
   align-items: center;
   font-optical-sizing: auto;
@@ -31,9 +31,9 @@ body {
 
   display: flex;
   margin: auto;
-  width: 110rem;
+  width: 118rem;
   max-height: 1rem;
-  max-width: 110rem;
+  max-width: 118rem;
   padding: 1rem;
   top: 0;
   justify-content: space-around;
