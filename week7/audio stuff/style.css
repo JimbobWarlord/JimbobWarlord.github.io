@@ -1,0 +1,23 @@
+audio {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#play-button {
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+#pause-button {
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+}
