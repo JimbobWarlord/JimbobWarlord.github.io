@@ -28,3 +28,14 @@ function pauseAudio() {
   console.log("Audio paused!");
   persona.pause();
 }
+
+const pop = document.querySelector("#pop");
+console.log(pop);
+
+const popButton = document.querySelector("#pop-button");
+console.log(popButton);
+
+popButton.addEventListener("click", playAudio2);
+function playAudio2() {
+  pop.play();
+}
