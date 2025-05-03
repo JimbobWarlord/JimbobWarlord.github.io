@@ -1,0 +1,125 @@
+body,
+h1,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+#vt323 {
+  font-family: "VT323", monospace;
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#vt323-small {
+  color: white;
+  font-family: "VT323", monospace;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 1rem;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: black;
+  color: var(--text-color);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+
+/* Add additional styles as needed */
+
+/* Create a container for the main content */
+.container {
+  max-width: 40rem;
+  margin-top: 10rem;
+  margin: auto;
+  margin-bottom: 10rem;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  height: 22rem;
+  border: 1px white solid;
+  border-radius: 50px;
+  text-align: center;
+}
+
+#textbox {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  max-width: 40rem;
+  font-family: "VT323", monospace;
+  margin: auto;
+  margin-top: 6rem;
+  margin-bottom: 7.4rem;
+}
+
+/* Header styling */
+header {
+  background-color: dimgray;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* Navigation styling */
+nav {
+  margin-top: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Media player styling */
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.controls button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+/* Footer styling */
+footer {
+  background-color: dimgray;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
