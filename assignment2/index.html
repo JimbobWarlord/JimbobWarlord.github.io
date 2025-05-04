@@ -4,35 +4,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Undertale OST - A Website</title>
-    <!-- add the font family of your choice -->
-    <link rel="stylesheet" href="reset.css" />
+    <!--Welcome to the Undertale Soundtrack Website! Undertale is a game which I've played through recently and it has some incredible music created by Toby Fox with some of the most recognisable video game songs. I decided to make a music player featuring the game's soundtrack! Toby is perfectly fine with his music being used as long as he's credited.-->
+    <title>The Undertale Soundtrack Website</title>
+
+    <!--<link rel="stylesheet" href="reset.css" />-->
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Graduate&family=Orbitron:wght@400..900&family=VT323&display=swap" rel="stylesheet">
+
+    <!--Favicon Icon is a broken heart, which is a major symbol in Undertale-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
   </head>
   <body>
+
     <!-- Header Section -->
     <header>
-      <h1 id = "vt323">Undertale OST - A Website</h1>
+      <h1 id = "vt323">The Undertale Soundtrack Website</h1>
     </header>
 
     <!-- Navigation Section -->
+     <!--This area jumps specifically to some of the most popular songs in the soundtrack. I was thinking about having the navigation be in increments of 25, (so 25, 50, 75, 100) but song 75 is "barrier" which is not popular in the soundtrack, so it would've felt a little weird.-->
     <nav>
-      <ul>
-        <li id = "vt323-small"><a href="#">Track List</a></li>
-        <!-- Add or remove navigation items as needed -->
+      <ul id = "button-container">
+        <button id = "jump-to-24-btn">Jump to Bonetrousle (24)</button>
+        <button id = "jump-to-46-btn">Jump to Spear of Justice (46)</button>
+        <button id = "jump-to-59-btn">Jump to Spider Dance (59)</button>
+        <button id = "jump-to-77-btn">Jump to ASGORE (77)</button>
+        <button id = "jump-to-100-btn">Jump to MEGALOVANIA (100)</button>
       </ul>
     </nav>
 
     <!-- Main Content Section -->
     <main class="container">
-      <!-- Media Player Section -->
+      <!-- Audio Player Section -->
+       <!--Starts with the game's first song, "Once Upon a Time"-->
          <h2 id = "textbox">01. Once Upon a Time </h2>
             <div class="controls">
             <audio src="01.mp3" id="my-audio"></audio>
+            <!--Going back to the previous song is very handy-->
             <button id="previous-song-btn">
                 <img
                 id="previous-song-img"
@@ -41,6 +55,7 @@
                 height="32"
                 />
             </button>
+            <!--Muting and unmuting is always nice to have. I was thinking about incorporating a volume lowering button, but it didn't feel necessary-->
             <button id="mute-unmute-btn">
                 <img
                 id="mute-unmute-img"
@@ -49,6 +64,7 @@
                 height="32"
                 />
             </button>
+            <!--Play/pause features are mandatory for any audio player-->
             <button id="play-pause-btn">
                 <img
                 id="play-pause-img"
@@ -57,15 +73,16 @@
                 height="24"
                 />
             </button>
-          <!-- add the missing buttons or functionality here -->
-           <button id="volume-toggle-btn">
+            <!--Replay functionality is quite useful-->
+           <button id="replay-btn">
                 <img
-                id="volumne-toggle-img"
-                src="https://img.icons8.com/ios-glyphs/30/low-volume.png"
+                id="replay-img"
+                src="https://img.icons8.com/ios-glyphs/30/replay.png"
                 width="36"
                 height="36"
                 />
             </button>
+            <!--Gotta have a way to go to the next song-->
             <button id="next-song-btn">
                 <img
                 id="next-song-img"
@@ -76,16 +93,13 @@
             </button>
         </div>
       </div>
-      <!-- Additional Content Section -->
     </main>
 
     <!-- Footer Section -->
     <footer>
-      <p>&copy; 2024 Media Player Website. All rights reserved.</p>
-      <a href="https://icons8.com/icon/59862/play">Play</a> icon by
-      <a href="https://icons8.com">Icons8</a>
-      <a href="https://icons8.com/icon/61012/pause">Pause</a> icon by
-      <a href="https://icons8.com">Icons8</a>
+      <p>&copy; 2025 The Undertale Soundtrack Website</p>
+      <!--Crediting the composer and the icon generator-->
+      All songs credited to Toby Fox. All icons by <a href="https://icons8.com">Icons8</a>
     </footer>
   </body>
 </html>

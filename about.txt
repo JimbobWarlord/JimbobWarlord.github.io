@@ -1,6 +1,6 @@
-This favicon was generated using the following font:
+This favicon was generated using the following graphics from Twitter Twemoji:
 
-- Font Title: Graduate
-- Font Author: undefined
-- Font Source: https://fonts.gstatic.com/s/graduate/v17/C8cg4cs3o2n15t_2YxgR6X2NZAn2.ttf
-- Font License: undefined)
+- Graphics Title: 1f494.svg
+- Graphics Author: Copyright 2020 Twitter, Inc and other contributors (https://github.com/twitter/twemoji)
+- Graphics Source: https://github.com/twitter/twemoji/blob/master/assets/svg/1f494.svg
+- Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)

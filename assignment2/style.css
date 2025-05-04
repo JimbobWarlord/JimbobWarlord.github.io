@@ -6,6 +6,7 @@ ul {
   padding: 0;
 }
 
+/* vt323 is the name of a font on Google Fonts which is quite similar to the Undertale font used in-game. I wanted to try to match Undertale's aesthetic with my audio player */
 #vt323 {
   font-family: "VT323", monospace;
   font-size: 2.5rem;
@@ -13,15 +14,7 @@ ul {
   font-style: normal;
 }
 
-#vt323-small {
-  color: white;
-  font-family: "VT323", monospace;
-  font-size: 2.5rem;
-  font-weight: 400;
-  font-style: normal;
-  margin-bottom: 1rem;
-}
-
+/* black and white colours certainly feel like the main colours of Undertale */
 body {
   font-family: "Arial", sans-serif;
   background-color: black;
@@ -34,9 +27,7 @@ body {
   background-color: black;
 }
 
-/* Add additional styles as needed */
-
-/* Create a container for the main content */
+/* Main content container (the big white box) */
 .container {
   max-width: 40rem;
   margin-top: 20rem;
@@ -52,15 +43,16 @@ body {
   text-align: center;
 }
 
+/* This is specifically styling the song name */
 #textbox {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: 400;
   max-width: 40rem;
   font-family: "VT323", monospace;
   margin: auto;
-  margin-top: 6rem;
-  margin-bottom: 7.4rem;
+  margin-top: 8rem;
+  margin-bottom: 6.8rem;
 }
 
 /* Header styling */
@@ -73,35 +65,69 @@ header {
   margin-bottom: 4.2rem;
 }
 
-/* Navigation styling */
-nav {
-  margin-top: 20px;
-  text-align: center;
-}
-
-nav ul {
-  list-style: none;
+/* Button container for the 'jump-to' buttons above the white box */
+#button-container {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
 }
 
-nav ul li {
-  margin-right: 20px;
-}
-
-nav a {
-  text-decoration: none;
+/* These next few buttons are the actual jump-to buttons for the most popular Undertale songs */
+#jump-to-24-btn {
+  text-align: center;
+  font-family: "VT323", monospace;
+  font-size: 1.5rem;
+  background-color: black;
   color: white;
+  background-color: black;
 }
 
-/* Media player styling */
+#jump-to-46-btn {
+  text-align: center;
+  font-family: "VT323", monospace;
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  background-color: black;
+}
 
+#jump-to-59-btn {
+  text-align: center;
+  font-family: "VT323", monospace;
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  background-color: black;
+}
+
+#jump-to-77-btn {
+  text-align: center;
+  font-family: "VT323", monospace;
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  background-color: black;
+}
+
+#jump-to-100-btn {
+  text-align: center;
+  font-family: "VT323", monospace;
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  background-color: black;
+}
+
+/* Audio player styling */
 .controls {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  margin-top: 10px;
+  margin-top: 1rem;
   width: 100%;
 }
 
@@ -116,6 +142,7 @@ nav a {
   align-items: center;
 }
 
+/* I just thought buttons decreasing size when hovered over was neat */
 button:hover {
   scale: 0.8;
 }
