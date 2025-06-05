@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  color: #ffffff;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  background-color: blue;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.map {
+  position: absolute;
+  top: 1;
+  left: 0;
+  width: max-content;
+  height: max-content;
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+svg {
+  width: 120rem;
+  height: 52rem;
+}
+
+#country {
+}
+
+path {
+  fill: lightgray;
+  stroke: black;
+}
+
+path:hover {
+  fill: darkgray;
+}
