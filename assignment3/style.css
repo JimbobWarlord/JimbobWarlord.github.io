@@ -1,20 +1,24 @@
 body {
   font-family: sans-serif;
   color: #ffffff;
-  background-color: white;
+  background-color: #d3ebe8;
   margin: 0;
   padding: 0;
 }
 
 header {
   display: flex;
-  background-color: blue;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.6rem;
+  background-color: #718bad;
   color: white;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
   margin: 0;
   padding: 0;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 
 .map {
@@ -28,7 +32,7 @@ header {
   margin-bottom: 0rem;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #d3ebe8;
 }
 
 svg {
@@ -36,14 +40,11 @@ svg {
   height: 52rem;
 }
 
-#country {
-}
-
 path {
-  fill: lightgray;
+  fill: #bfbfbf;
   stroke: black;
 }
 
 path:hover {
-  fill: darkgray;
+  fill: #575757;
 }
